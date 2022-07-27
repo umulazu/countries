@@ -36,7 +36,7 @@ const Country = () => {
           ))}
         </div>
       </div>
-      <MapContainer capitalCoordinates={country.capitalInfo.latlng} />
+      {/* <MapContainer capitalCoordinates={country.capitalInfo.latlng} /> */}
     </>
   );
 }
