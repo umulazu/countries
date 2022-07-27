@@ -1,0 +1,15 @@
+.country-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.country-info__flag {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.country-info__more-info {
+  margin-left: 10px;
+}
