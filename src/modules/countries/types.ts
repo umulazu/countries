@@ -11,10 +11,16 @@ export type CountryResponse = {
   cca2: string;
 };
 
-export type FieldsToFetch = (keyof CountryResponse)[];
+export type FieldsToFetchCountries = (keyof CountryResponse)[];
 
 export enum SearchFieldNames {
   Name = 'name',
   Code = 'alpha',
-  Subregion = 'subregion'
+  Subregion = 'subregion',
+  All = 'all'
+};
+
+export type FormValues = {
+  searchValue: string;
+  searchField: SearchFieldNames;
 };

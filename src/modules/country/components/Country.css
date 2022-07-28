@@ -1,0 +1,25 @@
+.country {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+
+.country__info-container {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+.country__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.country__map-container {
+  height: 90%;
+  width: 50%;
+}

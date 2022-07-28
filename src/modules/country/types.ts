@@ -20,3 +20,5 @@ export type CountryResponse = {
     latlng: [number, number];
   }
 };
+
+export type FieldsToFetchCountry = (keyof CountryResponse)[];

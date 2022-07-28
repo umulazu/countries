@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 
-import Country from './modules/country/Country';
-import CountryList from './modules/countryList/components/CountryList';
+import Country from './modules/country/components/Country';
+import Countries from './modules/countries/components/Countries';
 import NotFound from './modules/NotFound';
 
 function AppRoot() {
   return (
     <Routes>
-      <Route path="/countries" element={<CountryList />} />
+      <Route path="/countries" element={<Countries />} />
       <Route path="/countries/:countryCode" element={<Country />} />
       <Route
         path="*"

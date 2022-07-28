@@ -1,0 +1,28 @@
+.country-search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 25vh;
+  width: 100%;
+}
+
+.country-search-form__search-value {
+  min-height: 30%;
+}
+
+.country-search-form__search-field {
+  min-height: 30%;
+}
+
+.country-search-form__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 20%;
+}
+
+.validation-error-text {
+  font-size: small;
+  color: brown;
+}
